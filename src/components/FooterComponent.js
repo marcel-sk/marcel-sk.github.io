@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-function Footer(props) {
+function Footer() {
     return(
     <div className="footer">
         <div className="container">
@@ -22,8 +21,7 @@ function Footer(props) {
                         596729 Concession 10<br />
                         Chatsworth, On.<br />
                         <i className="fa fa-phone fa-lg"></i>: (437) 580-8398<br />
-                        <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:marcel.s@hotmail.ca">
-                            marcel.s@hotmail.ca</a>
+                        <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:marcel.s@hotmail.ca">marcel.s@hotmail.ca</a>
                     </address>
                 </div>
                 <div className="col-12 col-sm-4 align-self-center">
