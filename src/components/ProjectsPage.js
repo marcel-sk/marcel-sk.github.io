@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Breadcrumb, BreadcrumbItem, Media } from 'reactstrap';
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import {Link} from 'react-router-dom';
 import Project from './ProjectComponent';
 import PROJECTS from '../shared/projects';

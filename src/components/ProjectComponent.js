@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Media, Card, CardBody, CardTitle, CardSubtitle, CardText } from 'reactstrap';
+import { Button, Card, CardBody, CardTitle, CardSubtitle, CardText } from 'reactstrap';
 
 class Project extends Component {
     constructor(props) {
@@ -50,10 +50,10 @@ class Project extends Component {
     render() {
        
         return (
-            <div className='mt-2'>
+            <div className='mt-2 mb-2'>
                 <Card>
                     <CardBody>
-                        <CardTitle>{this.props.project.name}</CardTitle>
+                        <CardTitle className='card-title'>{this.props.project.name}</CardTitle>
                         <CardText>{this.props.project.description}</CardText>
                         {this.renderExpanded()}
                         {this.renderButton()}

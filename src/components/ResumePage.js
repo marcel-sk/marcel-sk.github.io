@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import resumePdf from '../MarcelSkura_Resume_2022.pdf';
 
@@ -16,8 +16,8 @@ class Resume extends Component {
                         <BreadcrumbItem active>Resume</BreadcrumbItem>
                     </Breadcrumb>
                 </div>
-                <div className='row row-content'>
-                    <iframe src={resumePdf} title="resume" height='1000'/>
+                <div className='row'> 
+                    <iframe className='col-12 responsive-iframe' height='1000' src={resumePdf} title="resume"/>
                 </div>
             </div>
         );
