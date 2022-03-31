@@ -20,7 +20,7 @@ function About(props) {
             </Media>
             <Media body>
               <p>I am a self-driven, highly motivated individual with a broad skill set in computing. My knowledge and experience range from low level hardware and embedded system languages like Structured Text to Machine Learning, and Modern Frameworks. I am making the shift from Robotic Automation Software into pure Computer Software and have been actively learning new skills to make that a reality. I am looking forward to continuing to learn in a practical product-driven environment.</p>
-              <p>Here is a whole bunch of text...</p>
+              <p>Here is a test text...</p>
               <p>Here is a whole bunch of text...</p>
               <p>Here is a whole bunch of text...</p>
               <p>Here is a whole bunch of text...</p>
@@ -47,15 +47,13 @@ function About(props) {
             <div className="col-12 col-sm-11">
               <div className="btn-group" role="group">
                 <a role="button" className="btn btn-primary" href="tel:+85212345678"><i className="fa fa-phone"></i> Call</a>
-                <a role="button" className="btn btn-info"><i className="fa fa-skype"></i> Skype</a>
+                <button role="button" className="btn btn-info"><i className="fa fa-skype"></i> Skype</button>
                 <a role="button" className="btn btn-success" href="mailto:marcel.s@hotmail.ca"><i className="fa fa-envelope-o"></i> Email</a>
               </div>
             </div>
           </div>
           <Card className='col-md-6'>
-            <Form>
-              <p>-form for sending an email-</p>
-            </Form>
+            
           </Card>
         </div>
       </div>

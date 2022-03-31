@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-import resumePdf from '../MarcelSkura_Resume_2022.pdf';
+import resumePdf from '../Marcel_Res_2022.pdf';
 
 class Resume extends Component {
    
