@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4f4d5db5.css",
-    "main.js": "/static/js/main.470e3cdc.js",
-    "static/media/MarcelSkura_Resume_2022.pdf": "/static/media/MarcelSkura_Resume_2022.45ef1ec40f5f5e4ec840.pdf",
+    "main.js": "/static/js/main.9152d481.js",
+    "static/media/Marcel_Res_2022.pdf": "/static/media/Marcel_Res_2022.4de23a0800a532e51f36.pdf",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/banner_background.jpg": "/static/media/banner_background.ba177a7f3be19f964be6.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -11,10 +11,10 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/index.html",
     "main.4f4d5db5.css.map": "/static/css/main.4f4d5db5.css.map",
-    "main.470e3cdc.js.map": "/static/js/main.470e3cdc.js.map"
+    "main.9152d481.js.map": "/static/js/main.9152d481.js.map"
   },
   "entrypoints": [
     "static/css/main.4f4d5db5.css",
-    "static/js/main.470e3cdc.js"
+    "static/js/main.9152d481.js"
   ]
 }
